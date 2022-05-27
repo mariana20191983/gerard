@@ -1,0 +1,245 @@
+body{
+    position: fixed;
+    background-repeat: repeat;
+    background-image: url(img/tela.jpg);
+    background-position: top,center;
+    position:relative;
+    width: 1024px;
+    height: 600px;
+    margin:auto;
+    margin-bottom: 0px;
+ 
+  
+      
+        }
+
+.logo{
+    position: fixed;
+    width: 0px;
+    height: 0px;
+    background-image: url(img/logo.jpg);
+    background-color: aliceblue;
+    background-size:contain;
+
+}
+
+
+.titulo1{
+    
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 25%;
+    color: rgb(60, 188, 203);
+    background-color: rgb(166, 191, 191);
+    display: flexbox;
+    flex-wrap:row nowrap;
+          
+}
+
+.titulo2{
+    
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 25%;
+    color: rgb(60, 188, 203);
+    background-color: rgb(166, 191, 191);
+    display: flexbox;
+    flex-wrap:row nowrap;
+}
+
+    .titulo3{
+       
+        font-size: 20px;
+        text-decoration: none;
+        border-radius: 25%;
+        color: rgb(60, 188, 203);
+        background-color: rgb(166, 191, 191);
+        display: flexbox;
+        flex-wrap:row nowrap;
+    }
+        .titulo4{
+      
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 25%;
+            color: rgb(60, 188, 203);
+            background-color: rgb(166, 191, 191);
+            display: flexbox;
+            flex-wrap:row nowrap;
+         
+
+
+        }
+
+        .botonera{
+
+            width: 1024;
+            height: 200px;
+            display: flex;
+
+        }
+
+
+
+
+
+
+
+
+.quienessomos{
+    width: 1024;
+    height: 1000px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: aquamarine;
+     }
+
+     .imagen{
+        position: relative;
+        padding-top: 20px;
+        background-repeat: no-repeat;
+        background-size: -50%;
+        display: flex;
+        flex-flow:column nowrap;
+        
+     }
+
+
+.h1{
+    width: 1024;
+    height: 1000px;
+    font-family: 'Cabin', sans-serif;
+    font-size:50px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 600;
+    text-align:right;
+    color:rgb(26, 67, 153);
+
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60PX;
+
+}
+
+ .textocontenido1{
+    position: relative;
+    top: auto;
+    right:500;
+    left: auto;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: right;
+    height: 200px;
+    box-sizing: border-box;
+    box-sizing: content-box;
+
+ }
+   
+.comolohacemos{
+    padding-top: 50px;
+    width: 1024px;
+    height: 15px
+    font-family: 'Courier New', Courier, monospace;
+      font-size: 30px;
+    }
+
+
+
+
+.video{
+    width: 1024px;
+    height: 50px;
+    padding-top: 15PX;
+
+
+}
+
+.textocontenido2{
+    position: relative;
+    top: auto;
+    right:500;
+    left: auto;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: right;
+    height: 200px;
+    box-sizing: border-box;
+    box-sizing: content-box;
+
+}
+
+.QUEPRODUCIMOS{
+
+    padding-top: 80px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow:column nowrap;
+}
+
+     .imagen2{
+        padding-top: 40px;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        display: flex;
+        flex-flow:column nowrap;
+     }
+    .productos{
+    position: relative;
+    left: 500px;
+        padding-top: 80px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow:column nowrap;
+    }
+
+    .CONTACTENOS{
+
+        padding-top: 2px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow:column nowrap;
+    }
+    
+         
+           
+            
+      
+          
+            
+         
+        .row{
+            padding-top: 80px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow:column nowrap;
+        }
+.footer{
+background-color: aqua;
+justify-content: center;
+display: flex;
+}
+
+.piedepagina{
+    background-color: rgb(186, 214, 214);
+    display: flex;
+    justify-content: center;
+}
+
+.CONTACTENOS{
+    position: absolute;
+    flex-direction: auto;
+    align-content: auto;
+
+@media all and (max-width:1024px){
+.section{
+
+    flex-direction: column;}
+}
+
+
+}
